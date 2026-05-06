@@ -3,7 +3,7 @@
 
 -- Requirements:
 -- - Use pois for point features
--- - Filter POIs where fclass = 'hospitalrestaurant'
+-- - Filter POIs where fclass = 'hospital'
 -- - Return raw point geometries
 
 -- Expected Output:
