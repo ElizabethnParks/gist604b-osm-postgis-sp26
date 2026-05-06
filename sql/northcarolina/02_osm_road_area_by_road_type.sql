@@ -12,10 +12,9 @@
 
 SELECT
     fclass,
-    SUM(ST_Length(geom)) AS total_length
+    SUM(ST_Length(geom)) AS total_length,
+    ST_Union(geom) AS geom
 FROM
     roads
 GROUP BY
-    fclass
-ORDER BY
-    total_length DESC;
+    fclass;
