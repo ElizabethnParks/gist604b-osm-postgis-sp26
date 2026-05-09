@@ -1,6 +1,30 @@
-# GIST 604B – OSM & PostGIS
+# [OSM and PostGIS Spatial Analysis]
 
-Repository for working with OSM spatial data using PostgreSQL and PostGIS.
+**Student:** [Elizabeth Parks]
+**Course:** GIST 604B – Open Source GIS
+**Module:** [MODULE #5 OSM and PostGIS Spatial Analysis]
+**University of Arizona**
+
+## Project Description
+This project focused on building a full spatial analysis workflow using OpenStreetMap data with Postgis and Python. I created and managed a PostGIS database, loaded real-world OSM spatial data, and write and tested SQL queries to perform spatial analyses. These results were executed and inspected through a jupyter notebook to support interpretation and visualization, with the workflow adapted to a new geographic area of choice.
+
+## Tools and Technologies
+- OpenStreetMaps
+- PostgreSQL with PostGIS
+- Python
+- Jupyter notebooks
+- SQL queries
+- Docker
+
+  ## What I did
+  - Setup OSM and design 3 SQL queries.
+  - Setup the database and configure the notebook environment.
+  - Execute SQL queries through Jupyter notebooks and created visualizations and interpretations for each.
+ 
+  ## How to View / Run
+  - Connect to the PostGIS database 'nc-connection'.
+  - Run the spatial analyses.
+  - Run each cell in the notebook to execute SQl queries, visualize results, and view interpretations.
 
 ## Repository Structure
 
